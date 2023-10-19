@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Sabor & Café</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="images\tiny-coffee-cup.gif">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="banner">
+		<h1 class="logo">Sabor & Café</h1>
+	</div>
+
+	<header class="topo">
+		<div class="cabecalho">
+			<nav class="menu">
+				<ul class="menu-list">
+					<li class="menu-item"><a href="index.html">Home</a></li>
+					<li class="menu-item"><a href="roasting.html">Torrefação</a></li>
+					<li class="menu-item"><a href="grinding.html">Moagem</a></li>
+					<li class="menu-item"><a href="brewing.html">Preparo</a></li>
+					<li class="menu-item"><a href="drinks.html">Bebida</a></li>
+					<li class="menu-item"><a href="survey.html">Pesquisa Sobre Café</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="conteudo">
+		<h1>Pesquisa Sobre Café</h1>
+		<!-- Imagem a direita -->
+		<aside class="img-dir">
+			<figure>
+				<img src="images/espresso.jpg" alt="Uma xícara de café." />
+			</figure>
+		</aside>
+
+		<div class="dados-pessoais">
+			<p>Informações Pessoais</p><br>
+			<form>
+				<!-- Campo de Nome -->
+				<p>Nome:</p>
+				<input type="text" placeholder="Seu nome completo" required>
+
+				<!-- Campo de Email -->
+				<p>Email:</p>
+				<input type="email" placeholder="Seu endereço de email" required>
+			</form>
+		</div>
+
+		<div class="preferencias">
+			<p>Suas preferências de café:</p><br>
+			<p>Conte-nos seus métodos de preparação de café.</p><br>
+			<form>
+				<textarea id="mensagem" placeholder="Digite sua mensagem aqui" rows="4" required></textarea>
+			</form><br>
+
+			<!-- Campo de sim-nao -->
+			<div class="sim-nao">
+				<p>Você moe seus próprios grãos?</p>
+				<label>
+					<input type="radio" name="escolha" value="sim">
+					Sim
+				</label>
+
+				<label>
+					<input type="radio" name="escolha" value="nao">
+					Não
+				</label>
+			</div>
+			<!-- Campo de acucar-creme -->
+			<div class="acucar-creme">
+				<p>Como você bebe seu café?</p>
+				<label>
+					<input type="radio" name="escolha" value="sim">
+					Com açúcar
+				</label>
+
+				<label>
+					<input type="radio" name="escolha" value="nao">
+					Com creme
+				</label>
+			</div>
+
+			<!-- Campo cafe preferido -->
+			<div class="preferido">
+				<p>Qual o seu café preferido?</p>
+
+				<select id="selecao-preferido">
+					<option disabled selected>Selecione uma bebida</option>
+					<option>Café pingado</option>
+					<option>Prensa francesa</option>
+					<option>Expresso</option>
+					<option>Café com leite</option>
+					<option>Aromatizado</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="botao">
+			<input type="submit" value="Enviar">
+		</div>
+	</div>
+
+	<footer class="rodape">
+		<nav class="nav-menu">
+			<ul class="menu-list">
+				<li class="menu-item"><a href="index.html">Home</a></li>
+				<li class="menu-item"><a href="roasting.html">Torrefação</a></li>
+				<li class="menu-item"><a href="grinding.html">Moagem</a></li>
+				<li class="menu-item"><a href="brewing.html">Preparo</a></li>
+				<li class="menu-item"><a href="drinks.html">Bebida</a></li>
+				<li class="menu-item"><a href="survey.html">Pesquisa Sobre Café</a></li>
+			</ul>
+		</nav>
+	</footer>
+
+	<body>
+
+</html>

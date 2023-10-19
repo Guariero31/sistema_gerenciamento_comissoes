@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento requisitos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div class="logo">
+                <img src="LogoMaisCode.webp" alt="Logo MAIS CODE">
+            </div>
+            <br>
+            <h1>Documento de requisitos Projeto</h1>
+        </div>
+
+        <div class="alunos">
+            <h3>Autores</h3>
+            <h3>Docente Gestor: Calebe</h3>
+            <h3>Docente Apoio: Ricardo</h3>
+            <h3>ALUNOS</h3>
+
+            <ul>
+                <p>Danilo Mamedio</p>
+                <p>Evandro Guariero</p>
+                <p>Gustavo Garcia</p>
+                <p>Gustavo Zanella</p>
+                <p>Hugo Felipe</p>
+                <p>Jason Harper</p>
+                <p>Jefferson</p>
+                <p>João Naves</p>
+                <p>João Reitman</p>
+                <p>João Stopassolli</p>
+                <p>Katiane</p>
+                <p>Maria Eduarda Silva</p>
+                <p>Victor Vicente</p>
+                <p>Wesley Gabriel</p>
+            </ul>
+        </div>
+    </header>
+
+    <div class="conteudo">
+        <h2>1. Introdução</h2>
+        <p>A empresa MaisCode é uma empresa de desenvolvimento de sistemas focada na criação de soluções para web, 
+        empenhada em impulsionar marcas e potencializar empreendimento. Sua missão é simplificar o desenvolvimento
+        de soluções tecnológicas, entregando qualidade, autonomia e liberdade para os clientes, sem depender de 
+        terceiros no futuro. Com a visão de se tornar uma das principais referências em tecnologia da informação,
+        a MaisCode baseia-se em valores éticos, honestidade e comprometimento, promovendo soluções inovadoras para
+        uma diversidade de clientes e parceiros. A empresa desenvolve sites responsivos e com layouts personalizados,
+        oferecendo suporte e manutenção para garantir a presença online eficaz. Com profissionais capacitados e
+        utilizando as principais linguagens de programação, a MaisCode utiliza estratégias em Otimização para
+        Mecanismos de Busca (SEO) e ferramentas analíticas para tomar decisões embasadas em dados de navegação.
+        Confie na MaisCode para impulsionar o sucesso no mundo digital. </p>
+
+        <br>
+        <h2>1.1 Propósito</h2><p>O objetivo do projeto MaisCode é a criação de um sistema Web para o registro de comissões de vendas
+            de produtos pelos colaboradores da MaisCode, permitindo ao departamento financeiro uma apuração
+            rápida de valores a serem pagos a título de comissão aos vendedores. </p>
+        
+
+        <br>
+        <h2>1.2 Escopo do produto</h2>
+        <p>O projeto visa desenvolver um sistema dedicado ao registro de comissões de vendas de produtos realizadas
+        pelos colaboradores da empresa. Essa solução permitirá ao departamento financeiro efetuar uma apuração ágil
+        e precisa dos valores a serem pagos em forma de títulos aos colaboradores. Através dessa plataforma, será
+        possível automatizar o processo de registro de vendas, garantindo maior eficiência operacional, redução de
+        erros e uma transparência exemplar aos vendedores, que terão acesso fácil e detalhado às suas comissões e
+        relatórios de vendas. Com este sistema, a empresa alcançará maior motivação em sua equipe de vendas,
+        impulsionando o alcance de metas e a obtenção de resultados sólidos, contribuindo para o sucesso
+        sustentável e o crescimento no mercado altamente competitivo. </p>
+        
+        <br>
+        <h2>2. Definições, siglas e abreviaturas</h2>
+        <h4>RF (Requisito Funcional): </h4>
+        <p>É uma especificação de uma função ou serviço que um sistema de software deve fornecer. Ele descreve o
+        comportamento do sistema em termos de entradas, processamento e saídas. Um requisito funcional pode ser
+        pensado como um recurso do produto que o usuário detecta. Ele define o que o sistema deve fazer para
+        atender às necessidades ou expectativas do usuário. </p>
+
+        <h4>RN (Regras de Negócio): </h4>
+        <p>São regras lógicas que traduzem uma necessidade do negócio, permitindo que desenvolvimento, produto e
+        negócio de uma empresa se alinhem com relação a estas necessidades, se guiem por elas e apliquem as
+        regras da forma mais clara possível, fazendo com que o desenvolvimento e o crescimento do produto
+        possam fluir da melhor forma. A partir do momento em que as regras estão entendidas é possível iniciar
+        o design do software, de acordo com o cronograma previsto para a sua execução.  </p>
+        
+
+        <h4>RNF (Requisito Não Funcional): </h4>
+        <p>São os requisitos relacionados às propriedades não funcionais do sistema, como desempenho, usabilidade,
+            confiabilidade, segurança, disponibilidade e manutenção. Eles especificam as restrições e condições sob
+            as quais o sistema deve operar. Os requisitos não funcionais são aqueles que não interferem diretamente
+            no desenvolvimento do sistema propriamente dito, mas estabelecem como o sistema se comportará em
+            determinadas situações.  </p>
+
+
+        <h4>SENAC (Serviço Nacional de Aprendizagem Comercial): </h4>
+        <p>É uma instituição brasileira de educação profissional aberta a toda a sociedade subordinada à
+            Confederação Nacional do Comércio, com a missão de desenvolver pessoas e organizações para o
+            mundo do trabalho no setor do comércio de bens, serviços e turismo. Ele foi criado em 1946 e está
+            presente em mais de 1.800 municípios, de Norte a Sul do Brasil. </p>
+
+
+        <h2>2.1 Referências</h2>
+        <h4>RF (Requisito Funcional): </h4>
+        <p>Fonte: Adaptado de "Engenharia de Software: Uma Abordagem Profissional" (Roger S. Pressman)</p>
+
+
+        <h4>RN (Regras de Negócio): </h4>
+        <p>Fonte: Adaptado de "Engenharia de Software: Uma Abordagem Profissional" (Roger S. Pressman)</p>
+
+
+        <h4>RNF (Requisito Não Funcional): </h4>
+        <p>Fonte: Adaptado de "Engenharia de Software: Uma Abordagem Profissional" (Roger S. Pressman)</p>
+
+
+        <h4>SENAC (Serviço Nacional de Aprendizagem Comercial): </h4>
+        <p>Fonte: Website oficial do SENAC Brasil <a style="font-weight: bold;" href="https://ww3.ms.senac.br/">(SENAC)</a></p>
+
+
+        <br>
+        <h2>3. Requisitos</h2>
+        <p>Em 5 de julho de 2023, foi conduzida uma reunião designada como "Dia da Integração", contando com a
+            participação do representante da empresa MaisCode. No decorrer dessa reunião, foram identificados e
+            analisados os requisitos essenciais do sistema em questão. De acordo com os resultados obtidos na
+            entrevista, constatou-se uma demanda premente por parte da empresa no desenvolvimento de um sistema
+            que visasse otimizar e agilizar o processo de apuração dos valores destinados ao pagamento de comissões
+            aos vendedores.</p>
+
+        <h2>Requisitos Funcionais</h2>
+        <h4>RNF01- Segurança:  </h4>
+        <p>O sistema deve garantir a segurança das informações, incluindo proteção contra acessos não autorizados,
+            autenticação adequada e criptografia dos dados sensíveis. </p>
+
+        <h4>RNF02- Confiabilidade: </h4>
+        <p>O sistema deve ser altamente confiável, minimizando falhas e erros. Deve possuir mecanismos de
+            recuperação em caso de falhas, garantindo a integridade dos dados. </p>
+
+        <h4>RNF03- Escalabilidade: </h4>
+        <p>O sistema deve ser facilmente escalável para acomodar o crescimento futuro, tanto em termos de
+            usuários quanto de volume de dados.</p>
+        
+        <h4>RF04- Campo de Busca para Usuários: </h4>
+        <p>Uma aba de pesquisa permite que o administrador identifique outros usuários com base em critérios
+            como data, CPF/CNPJ e nome.</p>
+
+        <h4>RF05- Edição de Cadastros (Apenas ADM): </h4>
+        <p>O administrador pode atualizar informações e modificar o status de cadastros.</p>
+
+        <h4>RF06- Visualização de Relatórios: </h4>
+        <p>Visão abrangente dos motivos de contato e comissões, com a capacidade de acessar relatórios.</p>
+
+        <h4>RF07- Campo de Busca para Vendas: </h4>
+        <p>Uma aba de busca ajuda a identificar vendas com base em critérios como data, vendedor e cliente.</p>
+
+        <h4>RF08- Cancelamento de Vendas: </h4>
+        <p>Habilidade de inativar uma venda é concedida ao administrador e financeiro.</p>
+        
+        <h4>RF09- Campo de Busca para Cliente: </h4>
+        <p>Uma aba de busca permite identificar clientes com base em CPF/CNPJ, Nome, razão social e nome fantasia
+            da empresa.</p>
+
+        <h4>RF10- Login: </h4>
+        <p>Usuários efetuam login no sistema utilizando suas credenciais.</p>
+
+        <h4>RF11- Logout: </h4>
+        <p>Usuários encerram o acesso ao sistema.</p>
+
+        <h4>RF12- Ajuste de Comissões e Glosa pelo ADM: </h4>
+        <p>O administrador pode modificar os valores das comissões e limites para desconto.</p>
+
+        <h4>RF13- Listagem de Vendas: </h4>
+        <p>Exibição de lista de vendas.</p>
+
+        <h4>RF14- Especificar Condição de Pagamento: </h4>
+        <p>Definição da forma de pagamento já cadastrada (à vista, parcelado sem entrada, parcelado com entrada).</p>
+
+        <h4>RF15- Informar Valor das Parcelas (Venda a Prazo): </h4>
+        <p>Quando a venda é a prazo sem entrada, é possível inserir o valor total da venda, a quantidade de
+            parcelas acordada entre cliente e vendedor e o valor das parcelas. Quando a venda é a prazo com
+            entrada, é possível inserir o valor total da venda, o valor de entrada, quantidade de parcelas
+            acordada entre cliente e vendedor, e o valor das parcelas.</p>
+
+        <h4>RF16- Cálculo de Valor da Comissão e Glosa: </h4>
+        <p>O sistema realiza automaticamente o cálculo do valor da comissão e glosa.</p>
+
+
+        <h2>3.2 Requisitos Não Funcionais</h2>
+
+        <h4>RNF01- Segurança: </h4>
+        <p>O sistema deve garantir a segurança das informações, incluindo proteção contra acessos não
+            autorizados, autenticação adequada e criptografia dos dados sensíveis. </p>
+
+        <h4>RNF02- Confiabilidade: </h4>
+        <p>O sistema deve ser altamente confiável, minimizando falhas e erros. Deve possuir mecanismos de
+            recuperação em caso de falhas, garantindo a integridade dos dados. </p>
+        
+        <h4>RNF03- Escalabilidade: </h4>
+        <p>O sistema deve ser facilmente escalável para acomodar o crescimento futuro, tanto em termos de usuários 
+            quanto de volume de dados. </p>
+            
+        <h4>RNF04- Manutenibilidade: </h4>
+        <p>O sistema deve ser projetado de forma a permitir uma manutenção fácil e rápida, com documentação clara 
+            e código bem estruturado. </p>
+
+        <h4>RNF05- Integração: </h4>
+        <p>O sistema deve ser capaz de se integrar com outros sistemas ou serviços de forma eficiente, 
+            facilitando a troca de informações entre eles. </p>
+
+        <h4>RNF06- Localização e Internacionalização: </h4>
+        <p>O sistema deve suportar diferentes idiomas, formatos de data, moedas e outros aspectos relacionados à 
+            localização e internacionalização. </p>
+
+        <h4>RNF07- Monitoramento: </h4>
+        <p>O sistema deve ter recursos de monitoramento para acompanhar o desempenho, uso e disponibilidade, permitindo uma análise detalhada da sua operação. </p>
+
+        <h4>RNF08- Permissão de exportação de dados: </h4>
+        <p>O sistema deve permitir que os usuários com permissões adequadas possam exportar os dados armazenados 
+            no sistema para outros formatos, por exemplo, XLS ou PDF. </p>
+
+        <h4>RNF09- Interface simples e responsiva: </h4>
+        <p>A interface do sistema deve ser projetada de forma simples e intuitiva, facilitando o uso e a navegação
+            para os usuários e responsiva para permitir um bom manuseio em diferentes dispositivos. </p>
+
+        <h4>RNF10- Sem exclusão de dados: </h4>
+        <p>O sistema deve ser projetado de forma a evitar a exclusão acidental ou não autorizada de dados 
+            importantes. </p>
+
+        <h4>RNF11- Portabilidade: </h4>
+        <p>O sistema deve ser desenvolvido de maneira que possa ser facilmente portado para diferentes ambientes, 
+            plataformas ou sistemas operacionais.</p>
+
+        <h4>RNF12- Disponibilidade de dados de forma atemporal: </h4>
+        <p>O sistema deve garantir que os dados estejam disponíveis sempre que necessário, sem restrições de 
+            horário ou dias da semana. </p>
+        
+        <h4>RNF13- Proteção de dados: </h4>
+        <p>O sistema deve implementar medidas de segurança robustas para proteger os dados armazenados contra 
+            acesso não autorizado, roubo, perda ou alteração indevida. </p>
+
+
+        <h4>RNF14- Sistema orientado por permissões: </h4>
+        <p>O sistema deve ser projetado com base em um modelo de permissões, garantindo que cada usuário tenha 
+            acesso somente às funcionalidades e dados permitidos para o seu perfil.</p>
+
+        <h2>3.3 Regra de Negócio</h2>
+
+        <h4>RN01- </h4>
+        <p>Apenas usuários autenticados e autorizados podem acessar o sistema. </p>
+
+        <h4>RN02- </h4>
+        <p>Não será permitida a exclusão de dados do sistema. </p>
+
+        <h4>RN01- </h4>
+        <p>Apenas usuários autenticados e autorizados podem acessar o sistema. </p>
+
+        <h4>RN02- </h4>
+        <p>Não será permitida a exclusão de dados do sistema. </p>
+
+        <h4>RN03- </h4>
+        <p>Para o cadastro da venda deverão ser informados: Número do contrato (código alfanumérico),  tipo de 
+            contrato (se é um contrato de continuidade ou pontual), valor global, comissão e glosa, forma de 
+            pagamento (se será a vista, parcelado, se terá entrada), condição de pagamento (preencher data e 
+            valor da parcela), tipagem para primeira parcela (entrada ou não), data de início do contrato, 
+            validade(data de encerramento do contrato), contato cliente responsável pelo contrato 
+            (preferencialmente e-mail ou celular), CPF/CNPJ, nome do cliente, campo de descrição do objeto da 
+            venda e contato da venda (nome, telefone e e-mail).</p>
+
+        <h4>RN04- </h4>
+        <p>Ao cadastrar uma venda a prazo com entrada, o sistema deve permitir a informação do valor da entrada, 
+            quantidade de parcelas e do valor de cada parcela com base no valor total da venda. </p>
+
+        <h4>RN05- </h4>
+        <p>Apenas o administrador tem permissão para editar os cadastros de usuários e atualizar informações 
+            como nome, senha e perfil de acesso.  </p>
+
+        <h4>RN06- </h4>
+        <p>O sistema deve permitir o cadastro de usuários com diferentes perfis, incluindo administrador, vendedor 
+            e financeiro.</p>
+
+        <h4>RN07- </h4>
+        <p>Para o cadastro do vendedor e financeiro deverão ser informados: nome, e-mail 
+            (de preferência corporativo), senha e CPF/CNPJ.</p>
+
+        <h4>RN08- </h4>
+        <p>O sistema deve garantir que cada usuário tenha acesso apenas às funcionalidades e dados permitidos 
+            para o seu perfil, de acordo com as permissões estabelecidas. </p>
+
+        <h4>RN09- </h4>
+        <p>Os usuários devem fornecer credenciais válidas (e-mail corporativo e senha) para efetuar o login no 
+            sistema. </p>
+
+        <h4>RN10- </h4>
+        <p>O administrador pode ativar ou desativar contas de usuários, controlando seu acesso ao sistema. </p>
+
+        <h4>RN11- </h4>
+        <p>Caso um usuário esqueça sua senha, ele deve entrar em contato com o administrador para realizar a 
+            troca de senha. </p>
+
+        <h4>RN12- </h4>
+        <p>Vendedores e administradores podem cadastrar informações detalhadas sobre uma venda, incluindo dados 
+            do cliente, produtos/serviços vendidos, valor da venda e forma de pagamento. </p>
+
+        <h4>RN13- </h4>
+        <p>Apenas o administrador e financeiro poderá fazer a inativação da venda.  </p>
+
+        <h4>RN14- </h4>
+        <p>O sistema deve calcular automaticamente a comissão e glosa do vendedor com base nas
+            regras estabelecidas para cada tipo de venda. </p>
+
+        <h4>RN15- </h4>
+        <p>O sistema deve permitir que vendedores e financeiros visualizem uma lista de todas as vendas 
+            registradas, incluindo detalhes como data da venda, cliente, valor total, 
+            comissão gerada e a sua glosa. </p>
+
+        <h4>RN16- </h4>
+        <p>O sistema deve permitir a especificação da condição de pagamento para cada venda, incluindo opções 
+            como à vista, parcelado, com entrada ou sem.</p>
+
+        <h4>RN17- </h4>
+        <p>Ao cadastrar uma venda a prazo sem entrada, o sistema deve abrir campos para informar o valor de 
+            cada parcela de forma personalizada. </p>
+
+        <h4>RN18- </h4>
+        <p>A interface do sistema deve ser projetada de forma simples e intuitiva, facilitando o uso e a navegação 
+            para os usuários. </p>
+
+        <h4>RN19- </h4>
+        <p>Caso uma venda seja cancelada, o sistema deve manter um registro do motivo do cancelamento para 
+            fins de auditoria. </p>
+
+        <h4>RN20- </h4>
+        <p>O sistema deve permitir a busca e a listagem de informações relevantes, como vendas, vendedores, 
+            clientes, relatórios, facilitando a análise de dados.  </p>
+        
+
+        <div class="CasoUso">
+            <h2>4. Descrição Caso de uso</h2>
+            <div class="imagem-caso-uso">
+                <img src="Caso de uso\Caso_uso_1.png" alt="Caso de uso 1">
+                <img src="Caso de uso\Caso_uso_2.png" alt="Caso de uso 2">
+            </div>
+            <div class="imagem-caso-uso">
+                <img src="Caso de uso\Caso_uso_3.png" alt="Caso de uso 3">
+                <img src="Caso de uso\Caso_uso_4.png" alt="Caso de uso 4">
+            </div>
+                <div class="imagem-caso-uso">
+                    <img src="Caso de uso\Caso_uso_5.png" alt="Caso de uso 5">
+                    <img src="Caso de uso\Caso_uso_6.png" alt="Caso de uso 6">
+                </div>
+                <div class="imagem-caso-uso">
+                    <img src="Caso de uso\Caso_uso_7.png" alt="Caso de uso 7">
+                    <img src="Caso de uso\Caso_uso_8.png" alt="Caso de uso 8">
+                </div>
+                <div class="imagem-caso-uso">
+                    <img src="Caso de uso\Caso_uso_9.png" alt="Caso de uso 9">
+                    <img src="Caso de uso\Caso_uso_10.png" alt="Caso de uso 10">
+                </div>
+                <div class="imagem-caso-uso">
+                    <img src="Caso de uso\Caso_uso_11.png" alt="Caso de uso 11">
+                </div>
+            </div>
+            
+
+        <div class="Fluxograma">
+            <h2>4.2 Diagrama dos Casos de Uso</h2>
+            <div class="imagem-fluxograma">
+                <img src="Fluxograma_1.png" alt="Fluxograma">
+            </div>
+        </div>
+        
+        <div class="Diagrama">
+            <h2>4.3 Diagrama de Classes</h2>
+            <div class="imagem-diagrama">
+                <img src="Diagrama_Classe_1.png" alt="Diagrama Classe">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

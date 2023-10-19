@@ -1,0 +1,98 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+.top {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para a lista de autores */
+.alunos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.alunos h3 {
+    font-size: 18px;
+}
+
+.alunos p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Estilo para o conteúdo principal */
+.conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para os elementos de seção (por exemplo, h2) */
+.conteudo h2 {
+    text-align: center;
+}
+
+/* Estilo para imagens */
+.conteudo img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.conteudo img:hover {
+    transform: scale(1.5);
+}
+
+/* Estilo para os elementos de seção dentro de Conteudo (por exemplo, h4) */
+.conteudo h4 {
+    font-weight: bold;
+}
+/* Estilo para as imagens dos casos de uso */
+.CasoUso {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 10px;
+}
+
+.imagem-caso-uso {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px; /* Espaço entre as linhas de imagens */
+}
+
+.imagem-caso-uso img {
+    max-width: calc(50% - 5px); /* 50% de largura com espaço entre as imagens */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.CasoUso img:hover {
+    transform: scale(1.5);
+}
+/* Estilo para as seções específicas (CasoUso, Fluxograma, Diagrama) */
+.Fluxograma, .Diagrama {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para as imagens dentro de CasoUso, Fluxograma, Diagrama */
+.Fluxograma img, .Diagrama img {
+    max-width: 100%;
+    height: auto;
+}

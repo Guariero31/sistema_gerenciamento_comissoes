@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Passo 1: Configuração Inicial
+    Comece criando um arquivo HTML e um arquivo CSS, além de incluir o Bootstrap em seu projeto. 
+    Você pode baixar o Bootstrap em seu site oficial ou usar um CDN. 
+    Aqui está um exemplo básico de estrutura HTML:-->
+    <title>Landing Page com Bootstrap</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Seu conteúdo HTML será adicionado aqui 
+    Passo 2: Cabeçalho
+    Vamos criar um cabeçalho com um menu de navegação usando o Bootstrap. 
+    Aqui está o código HTML para o cabeçalho:
+    -->
+    <header class="bg-dark text-light text-center py-5">
+      <h1>Minha Landing Page</h1>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#destaque">Destaque</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recursos">Recursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Passo 3:Banner de Destaque
+    Aqui, criamos um banner de destaque com um título e um botão de chamada à ação. 
+    O Bootstrap nos permite usar classes como "container" e "jumbotron" para estilizar o conteúdo. 
+    Adicione o seguinte código abaixo do cabeçalho: -->
+    <section id="destaque" class="jumbotron text-center">
+      <div class="container">
+        <h2>Destaque</h2>
+        <p>Uma descrição convincente do seu produto ou serviço.</p>
+        <a href="#" class="btn btn-primary btn-lg">Saiba Mais</a>
+      </div>
+    </section>
+    <!-- Passo 4: Seção de Recursos 
+    Aqui, criamos uma seção de recursos para listar as características do seu produto ou serviço. 
+    Usaremos a classe container novamente para a estrutura da página. 
+    Adicione o seguinte código abaixo do banner de destaque:
+    -->
+    <section id="recursos" class="py-5">
+      <div class="container">
+        <h2>Recursos</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Recurso 1</h3>
+                <p class="card-text">Descrição do Recurso 1.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Recurso 2</h3>
+                <p class="card-text">Descrição do Recurso 2.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Recurso 3</h3>
+                <p class="card-text">Descrição do Recurso 3.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Passo 5: Seção de Contato
+    Finalmente, criamos um formulário de contato usando o Bootstrap. 
+    Adicione o seguinte código abaixo da seção de recursos:
+    -->
+    <section id="contato" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center">Entre em Contato</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nome"
+                  placeholder="Seu Nome"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Seu Email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea
+                  class="form-control"
+                  id="mensagem"
+                  rows="4"
+                  placeholder="Sua Mensagem"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
